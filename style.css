@@ -39,6 +39,7 @@
 .donate-today{
     padding: 5% 20%;
     position: center;
+    
 }
 .donate-content h2{
     text-align: center;
@@ -64,7 +65,7 @@
     
 }
 .donate-amount-item{
-    padding: 7px 30px;
+    padding: 7px 25px;
     background-color: rgba(128, 128, 128, 0.068);
     border-radius: 5px;
     margin: 0% 2%;
