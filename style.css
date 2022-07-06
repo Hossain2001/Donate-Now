@@ -91,17 +91,18 @@
 .other-amount-input{
     width: 600px;
     border: none;
-    border-width: 500px;
     border-bottom: 2px solid rgb(155, 148, 148);
     text-decoration: none;
 }
-.input placeholder {
+::-webkit-input-placeholder {
     text-align: center;
-    padding-left:15% ;
-    padding-left: 15%;
-}
-.donate-plan{
+    font-size: 18px;
+    padding-bottom: 20px;
 
+  }
+
+.donate-plan{
+    padding:0;
 }
 .donate-plan-content{
    text-align: center;
@@ -178,7 +179,7 @@
     padding: 15px 30px;
     border-radius: 10px;
     color: aliceblue;
-  
+    margin-left:25px;
 }
 
 .donation-stat{
@@ -192,7 +193,7 @@
 
 .get-updates{
     text-align: center;
-    padding: 0% 10%;
+    padding: 4% 10%;
    
 }
 .get-updates-content h2{
