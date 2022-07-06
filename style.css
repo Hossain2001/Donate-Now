@@ -16,7 +16,7 @@
     text-align: center;
     padding: 10% 20%;
     color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.616);
+    background-color: rgba(0, 0, 0, 0.671);
 }
 .header-content h1{
     font-size: 60px;
@@ -53,6 +53,11 @@
 }
 .flexible{
     display: flex;
+
+}
+.half-width{
+   width: 50%;
+   margin: 0% 2%;
 }
 .donate-amount{
     padding: 3%;
@@ -62,7 +67,7 @@
     padding: 7px 30px;
     background-color: rgba(128, 128, 128, 0.068);
     border-radius: 5px;
-    margin: 2%;
+    margin: 0% 2%;
     font-size: 28px;
     font-weight: bold;
     color:gray;
@@ -71,7 +76,7 @@
     padding: 7px 15px;
     background-color: rgba(248, 60, 123, 0.144);
     border-radius: 5px;
-    margin: 2%;
+    margin: 0% 2%;
     font-size: 28px;
     font-weight: bold;
     border: 2px solid rgb(248, 60, 123);
@@ -144,4 +149,97 @@
     font-size: 17px;
     color: gray;
 
+}
+.contribute{
+    padding: 5% 10%;
+    
+
+}
+.contribute-content h3{
+    font-size: 45px;
+    padding: 2%;
+}
+.contribute-content p{
+    font-size: 22px;
+    padding: 2% 5%;
+}
+.contribute-img{
+    height: 100%;
+    width: 100%;
+    padding:0% 5%;
+    margin-right: 15%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.contribute-btn{
+    font-size: 24px;
+    text-decoration: none;
+    background-color: rgb(248, 60, 123);
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: aliceblue;
+  
+}
+
+.donation-stat{
+    
+    padding: 0% 5%;
+    margin: 5% 10%;
+    border-radius:12px;
+    background-color:bisque;
+    box-shadow: 10px 10px 40px;
+}
+
+.get-updates{
+    text-align: center;
+    padding: 0% 10%;
+   
+}
+.get-updates-content h2{
+    font-size: 35px;
+}
+.get-updates-content p{
+    font-size: 20px;
+    color:gray;
+    padding: 0% 20%;
+}
+.get-updates-submit-email{
+    padding: 10% 10%;
+    border-radius: 15px;
+    background-color: rgba(223, 107, 252, 0.384);
+}
+.get-updates-submit-email input{
+    padding:2% 8%;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#subscribe{
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgb(248, 60, 123);
+    padding:2% 4%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: aliceblue; 
+    margin:auto;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(9, 0, 22);
+}
+.footer-head{
+    font-family: "Oleo Script Swash Caps script=latin rev=2";
+    color: rgb(248, 60, 123);
+    font-size: 35px;
+    padding-top: 4%;
+    
+}
+.footer-p{
+    font-size: 18px;
+    color: aliceblue;
+    padding-bottom: 4%;
+    
 }
