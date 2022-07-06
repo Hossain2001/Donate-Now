@@ -1,4 +1,4 @@
-.body{
+body{
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
@@ -109,6 +109,7 @@
    text-align: center;
    padding-left: 25%;
    padding-right: 25%;
+   padding-top:2%;
 }
 .donate-plan-content h2{
     font-size: 50px;
